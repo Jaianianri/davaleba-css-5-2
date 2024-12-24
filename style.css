@@ -25,7 +25,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: blue;
+    
 
 }
 
@@ -44,27 +44,98 @@ span {
     font-size: 16px;
 }
 
-main {
+
+.main-box {
     display: flex;
     justify-content: center;
-    padding-top: 28px;
 }
 
-.main-wraper {
+.main-container {
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.skin {
+   d;
+}
+
+.project-compedent {
+    width: 100%;
+    height: 200px;
+    background: #242642;
+    display: flex;
+    align-items: center;
+
+}
+
+.Trade {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+h2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 48px;
+    min-width: 100px;
+}
+
+.project {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1040px;
+    width: 100%;
+
+}
+
+.compedent {
+    color: #8CE900;
+    font-family: Inter;
+    font-size: 56px;
+}
+
+.paragraf-wraperr {
+    color: #C0C0C0;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+}
+
+.footer-content {
+    width: 100%;
+    height: 200px;
+   
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: red;
-    margin-top: 64px;
 }
 
-.Skin {
+footer {
     display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    margin-bottom: 64px;
+}
+
+.desing {
+    max-width: 264px;
+    width: 100%;
+    color: #C0C0C0;
+    font-family: Inter;
+    font-size: 14px;
+}
+
+.Navigation {
     color: #FFF;
     font-family: Inter;
-    font-style: normal;
-}
-
-.Best {
-    font-size: 48px
+    font-size: 16px;
+    gap: 16px;
 }
