@@ -57,10 +57,6 @@ span {
     gap: 64px;
 }
 
-.skin {
-   d;
-}
-
 .project-compedent {
     width: 100%;
     height: 200px;
@@ -138,4 +134,14 @@ footer {
     font-family: Inter;
     font-size: 16px;
     gap: 16px;
+    display: inline-flex;
+    flex-direction: column;
+}
+.Contact1 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    gap: 16px;
+    display: inline-flex;
+    flex-direction: column;
 }
